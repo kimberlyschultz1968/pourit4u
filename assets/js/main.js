@@ -790,8 +790,7 @@
   /* ========================================================================
      I. BOOKING FORM
      ========================================================================
-     There is no form backend connected yet, so nothing here pretends a
-     message was sent. Behaviour:
+     Delivery is controlled by the central configuration. Behaviour:
        • config.form.endpoint set    → the form really posts, then thanks you
        • config.form.endpoint empty  → the request is handed to the visitor's
                                        email app, fully written and addressed

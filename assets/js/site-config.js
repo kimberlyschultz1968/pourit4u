@@ -64,17 +64,13 @@ const SITE = {
   /* ------------------------------------------------------------------
      3. BOOKING FORM DELIVERY
      ------------------------------------------------------------------
-     Right now there is NO form backend connected, so the site does not
-     pretend to send anything. Instead it hands the finished request to the
-     visitor's email app, already filled in and addressed to you.
-
-     When you are ready for the form to submit automatically:
-       1. Create a free form endpoint (Formspree, Netlify Forms, Basin, etc.)
-       2. Paste the URL into `endpoint` below.
-     That is the only change needed — the thank-you message is already built.
+     Formspree delivers event requests to alex@pourit4u.com and keeps a copy
+     in the PourIt4U Event Requests dashboard. The success message appears
+     only after Formspree accepts the request. Set endpoint to null to use
+     the visitor's email app as a fallback instead.
      ------------------------------------------------------------------ */
   form: {
-    endpoint: null,          // e.g. 'https://formspree.io/f/xxxxxxx'
+    endpoint: 'https://formspree.io/f/mnpnbbve',
     method: 'POST',
     successMessage: 'Thank you! We’ve received your event request and will be in touch soon.'
   },
