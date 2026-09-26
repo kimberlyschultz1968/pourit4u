@@ -57,7 +57,7 @@ const SITE = {
      ------------------------------------------------------------------ */
   social: {
     facebook:  'https://www.facebook.com/profile.php?id=61594528391718',
-    instagram: '',   // e.g. 'https://instagram.com/pourit4u'  PLACEHOLDER
+    instagram: 'https://www.instagram.com/pourit4u/',
     tiktok:    ''    // e.g. 'https://tiktok.com/@pourit4u'    PLACEHOLDER
   },
 
