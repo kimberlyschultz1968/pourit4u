@@ -56,7 +56,7 @@ const SITE = {
      Set a link to '' (empty) to hide that icon completely.
      ------------------------------------------------------------------ */
   social: {
-    facebook:  '',   // e.g. 'https://facebook.com/pourit4u'   PLACEHOLDER
+    facebook:  'https://www.facebook.com/profile.php?id=61594528391718',
     instagram: '',   // e.g. 'https://instagram.com/pourit4u'  PLACEHOLDER
     tiktok:    ''    // e.g. 'https://tiktok.com/@pourit4u'    PLACEHOLDER
   },
